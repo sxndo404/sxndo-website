@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SXNDO – Rise from Ash</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <img src="logo.png" alt="SXNDO Logo" class="nav-logo"/>
+    <div class="nav-links">
+      <button onclick="showSection('start')">Home</button>
+      <button onclick="showSection('tshirts')">T-Shirts</button>
+      <button onclick="showSection('hoodies')">Hoodies</button>
+      <button onclick="showSection('pants')">Hosen</button>
+      <a href="https://instagram.com/sxndo" target="_blank">Instagram</a>
+    </div>
+  </nav>
+
+  <section id="start" class="active-section">
+    <h1>SXNDO</h1>
+    <p class="slogan">Rise from Ash – More than just clothing. It’s a statement.</p>
+  </section>
+
+  <section id="tshirts" class="hidden-section">
+    <h2>T-Shirts</h2>
+    <div class="product-grid">
+      <div class="product"><img src="https://via.placeholder.com/250x300/000000/FFFFFF?text=Black+Tee"/><p>Black Tee</p></div>
+      <div class="product"><img src="https://via.placeholder.com/250x300/FFFFFF/000000?text=White+Tee"/><p>White Tee</p></div>
+      <div class="product"><img src="https://via.placeholder.com/250x300/5c4033/ffffff?text=Brown+Tee"/><p>Brown Tee</p></div>
+    </div>
+  </section>
+
+  <section id="hoodies" class="hidden-section">
+    <h2>Hoodies</h2>
+    <div class="product-grid">
+      <div class="product"><img src="https://via.placeholder.com/250x300/333333/FFFFFF?text=Black+Hoodie"/><p>Black Hoodie</p></div>
+      <div class="product"><img src="https://via.placeholder.com/250x300/888888/000000?text=Grey+Hoodie"/><p>Grey Hoodie</p></div>
+      <div class="product"><img src="https://via.placeholder.com/250x300/1f1f1f/FFFFFF?text=Oversized+Hoodie"/><p>Oversized Hoodie</p></div>
+    </div>
+  </section>
+
+  <section id="pants" class="hidden-section">
+    <h2>Hosen</h2>
+    <div class="product-grid">
+      <div class="product"><img src="https://via.placeholder.com/250x300/222222/FFFFFF?text=Black+Pants"/><p>Black Pants</p></div>
+      <div class="product"><img src="https://via.placeholder.com/250x300/444444/FFFFFF?text=Joggers"/><p>Joggers</p></div>
+      <div class="product"><img src="https://via.placeholder.com/250x300/555555/FFFFFF?text=Cargo+Pants"/><p>Cargo Pants</p></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
